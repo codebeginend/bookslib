@@ -1,0 +1,10 @@
+.navbar-default{
+    background-color: #f9f9f9;
+    border-color: #d4cecc;
+}
+.navbar-brand{
+    margin-top: -10px;
+}
+.navbar-brand, img{
+    height: 40px;
+}

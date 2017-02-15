@@ -2,10 +2,84 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9eb23c0d-46c5-46a0-aaa6-dcea152efc3d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/WEB-INF/glassfish-web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/glassfish-web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/img/background/body.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/img/images/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/img/images/asc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/img/images/bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/img/images/desc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/img/images/first.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/img/images/header-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/img/images/header-selected-bg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/img/images/last.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/img/images/next.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/img/images/previous.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/img/images/sort.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/img/logo/nav_logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/img/news/im1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/img/news/im2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/img/news/im3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/img/table/125px-Flag_of_Canada.svg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/img/table/125px-Flag_of_Germany.svg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/img/table/125px-Flag_of_India.svg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/img/table/125px-Flag_of_the_United_Kingdom.svg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/img/table/125px-Flag_of_the_United_States.svg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/img/table/arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/img/table/header_bkg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/img/table/row_bkg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/bookslib.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/11d65d3e-0131-48ba-9723-4efa2ba5d55a.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/11d65d3e-0131-48ba-9723-4efa2ba5d55a/storage.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/gupcit/spring/components/CustomSuccessHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/gupcit/spring/controller/MainController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/gupcit/spring/dao/BooksDaoImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/gupcit/spring/dao/CategoriesDaoImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/gupcit/spring/dao/IBooksDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/gupcit/spring/dao/ICategoriesDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/gupcit/spring/dao/IUsersDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/gupcit/spring/dao/UsersDaoImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/gupcit/spring/excel/ExcelDocument.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/gupcit/spring/excel/PDFDocument.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/gupcit/spring/model/Books.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/gupcit/spring/model/Categoryes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/gupcit/spring/model/Users.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/gupcit/spring/service/ApplicationsService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/gupcit/spring/service/ApplicationsServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/gupcit/spring/service/AuthenticationService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/config/application-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/config/dispatcher-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/config/excel-config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/config/security-config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/views/admin/add.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/views/admin/books.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/views/error.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/views/includes/header.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/views/includes/headeradmin.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/views/includes/headerauth.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/views/user/books.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/css/authmodal.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/css/authpage.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/css/sorters.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/js/authmodal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/js/jquery-1.11.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/js/scriptsorter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/sql/bookslib.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookslib.iml" afterPath="$PROJECT_DIR$/bookslib.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,11 +128,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="scgupcit.sql" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/resources/sql/scgupcit.sql">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="64" column="18" lean-forward="false" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
+            <state relative-caret-position="225">
+              <caret line="15" column="43" lean-forward="false" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -67,6 +141,11 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="elbukaevzaur &lt;elbukaevzaur@gmail.ru&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -82,7 +161,6 @@
         <option value="$PROJECT_DIR$/src/main/java/spring/excel/PDFDocument.java" />
         <option value="$PROJECT_DIR$/WEB-INF/views/user/application.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/includes/headerauth.jsp" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/11d65d3e-0131-48ba-9723-4efa2ba5d55a/console_1.sql" />
         <option value="$PROJECT_DIR$/src/main/java/ru/gupcit/spring/dao/IBooksDao.java" />
@@ -102,6 +180,7 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/views/admin/books.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/ru/gupcit/spring/dao/CategoriesDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/gupcit/spring/dao/UsersDaoImpl.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" />
       </list>
     </option>
   </component>
@@ -1093,12 +1172,20 @@
       <workItem from="1487015151391" duration="122000" />
       <workItem from="1487015313166" duration="7346000" />
       <workItem from="1487094307976" duration="8518000" />
-      <workItem from="1487143635802" duration="948000" />
+      <workItem from="1487143635802" duration="1177000" />
     </task>
+    <task id="LOCAL-00001" summary="Завершил вывод всех книг">
+      <created>1487144772648</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1487144772648</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20234000" />
+    <option name="totallyTimeSpent" value="20463000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1145,6 +1232,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Завершил вывод всех книг" />
+    <option name="LAST_COMMIT_MESSAGE" value="Завершил вывод всех книг" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1203,14 +1294,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1486,10 +1569,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/resources/sql/scgupcit.sql">
+    <entry file="file://$PROJECT_DIR$/web/resources/sql/bookslib.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="64" column="18" lean-forward="false" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
+        <state relative-caret-position="1935">
+          <caret line="129" column="39" lean-forward="true" selection-start-line="129" selection-start-column="39" selection-end-line="129" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="43" lean-forward="false" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
           <folding />
         </state>
       </provider>
