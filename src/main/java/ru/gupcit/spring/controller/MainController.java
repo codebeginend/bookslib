@@ -24,7 +24,7 @@ import java.util.List;
 public class MainController {
 
     @Autowired
-    BooksDaoImpl applicationsDao;
+    BooksDaoImpl booksDao;
     @Autowired
     CategoriesDaoImpl categoriesDao;
 
@@ -57,48 +57,49 @@ public class MainController {
 
     @RequestMapping(value = "/admin/books", method = RequestMethod.GET)
     public String getApplication(Model model){
-
-        List<Books> allApplications = applicationsDao.getAllBooks();
-        int size = allApplications.size();
+        List<Books> allBooks = booksDao.getAllBooks();
+        List<Categoryes> categoryesList = categoriesDao.getAllCategoryes();
+        int size = allBooks.size();
         model.addAttribute("stat", size);
-        model.addAttribute("list", allApplications);
+        model.addAttribute("list", allBooks);
+        model.addAttribute("listCategoryes", categoryesList);
+        model.addAttribute("addbook", new Books());
         return "admin/books";
     }
 
-    @RequestMapping(value = "/admin/add", method = RequestMethod.GET)
-    public String getUsers(Model model){
-        model.addAttribute("usersList", authenticationService.usersList());
-        return "admin/add";
+    @RequestMapping("/admin/books/{id_category}")
+    public String removeBook(@PathVariable("id_category") int id, Model model){
+        List<Books> categoryBooks = booksDao.getCategoryBooks(id);
+        List<Categoryes> categoryesList = categoriesDao.getAllCategoryes();
+        int size = categoryBooks.size();
+        model.addAttribute("stat", size);
+        model.addAttribute("list", categoryBooks);
+        model.addAttribute("listCategoryes", categoryesList);
+        model.addAttribute("addbook", new Books());
+        return "/admin/books";
     }
-    @RequestMapping(value= "/admin/add/user/add", method = RequestMethod.POST)
-    public String addUser(@ModelAttribute("setUser") Users users){
-       authenticationService.addUser(users);
-        return "redirect:/admin/administration";
+    @RequestMapping(value= "/admin/books/add", method = RequestMethod.POST)
+    public String addBook(@ModelAttribute("addbook") Books books){
+        booksDao.addBook(books);
+        return "redirect:/admin/books";
     }
 
     @RequestMapping(value = "user/books", method = RequestMethod.GET)
-    public String  getUserApplication(Model model){
-        List<Books> bookss = applicationsDao.getAllBooks();
+    public String  getUserBooks(Model model){
+        List<Books> bookss = booksDao.getAllBooks();
         List<Categoryes> categoryes = categoriesDao.getAllCategoryes();
         Users users = authenticationService.getUsersDao();
         model.addAttribute("app", bookss);
         model.addAttribute("categ", categoryes);
-        model.addAttribute("setApp", new Books());
         model.addAttribute("userinfo", users);
         return "user/books";
-    }
-    @RequestMapping(value= "/user/books/add", method = RequestMethod.POST)
-    public String addBook(@ModelAttribute("setapp") Books applications){
-       applicationsDao.setApplication(applications);
-        return "redirect:/user/application";
     }
 
     @RequestMapping(value = "/admin/books/excel", method= RequestMethod.GET)
     public ModelAndView excel() {
         System.out.println("ExcelPDFController excel is called");
 
-        List<Books> applicationses = applicationsDao.getAllBooks();
-
+        List<Books> applicationses = booksDao.getAllBooks();
         //excelDocument - look excel-pdf-config.xml
         return new ModelAndView("excelDocument", "modelObject", applicationses);
 
@@ -106,10 +107,7 @@ public class MainController {
 
     @RequestMapping(value = "/admin/books/pdf", method= RequestMethod.GET)
     public ModelAndView pdf() {
-
-        System.out.println("ExcelPDFController pdf is called");
-
-        List<Books> applicationses = applicationsDao.getAllBooks();
+        List<Books> applicationses = booksDao.getAllBooks();
         //pdfDocument - look excel-pdf-config.xml
         return new ModelAndView("pdfDocument", "modelObject", applicationses);
 

@@ -9,6 +9,6 @@ import java.util.List;
 
 public interface IBooksDao {
     public List getAllBooks();
-    public List getApplicationsFromUser();
-    public void setApplication(Books application);
+    public List getCategoryBooks(int id_category);
+    public void addBook(Books books);
 }

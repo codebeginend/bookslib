@@ -28,7 +28,6 @@ public class BooksDaoImpl implements IBooksDao {
     }
 
     public List<Books> getAllBooks(){
-        UserDetails userDetails = (UserDetails) SecurityContextHolder.getContext().getAuthentication().getPrincipal();
         String sql = "SELECT bookslib.books.image image, bookslib.categories.name categoryname, bookslib.books.id id, bookslib.books.title title, bookslib.books.text text," +
                 " bookslib.books.author author, bookslib.books.year year  FROM "+
                 "bookslib.books INNER JOIN bookslib.categories ON bookslib.categories.id = bookslib.books.id_category ORDER BY bookslib.books.id DESC";
@@ -49,11 +48,29 @@ public class BooksDaoImpl implements IBooksDao {
 
     }
 
-    public List getApplicationsFromUser() {
-        return null;
+    public List<Books> getCategoryBooks(int id_category) {
+        String sql = "SELECT bookslib.books.image image, bookslib.categories.name categoryname, bookslib.books.id id, bookslib.books.title title, bookslib.books.text text," +
+                " bookslib.books.author author, bookslib.books.year year  FROM "+
+                "bookslib.books INNER JOIN bookslib.categories ON bookslib.categories.id = bookslib.books.id_category where bookslib.books.id_category = ? ORDER BY bookslib.books.id DESC";
+        return jdbcTemplate.query(sql, new Object[]{id_category},
+                new RowMapper<Books>() {
+                    public Books mapRow(ResultSet rs, int i) throws SQLException {
+                        Books books = new Books();
+                        books.setId(rs.getInt("id"));
+                        books.setTitle(rs.getString("title"));
+                        books.setText(rs.getString("text"));
+                        books.setAuthor(rs.getString("author"));
+                        books.setYear(rs.getString("year"));
+                        books.setImages(rs.getString("image"));
+                        books.setName_category(rs.getString("categoryname"));
+                        return books;
+                    }
+                });
     }
 
-    public void setApplication(Books application) {
-
+    public void addBook(Books books) {
+        String sql = "INSERT INTO bookslib.books "+
+                "(title, text, author, year, id_category, image) VALUES (?, ?, ?, ?, ?, ?)";
+        jdbcTemplate.update(sql, new Object[]{books.getTitle(), books.getText(), books.getAuthor(),books.getYear(), books.getId_category(), books.getImages()});
     }
 }

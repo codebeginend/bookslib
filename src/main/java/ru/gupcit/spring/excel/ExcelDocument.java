@@ -51,14 +51,11 @@ public class ExcelDocument extends AbstractExcelView {
         for (Books applications : applicationses) {
             HSSFRow row = excelSheet.createRow(rowCount++);
             row.createCell(0).setCellValue(applications.getId());
-            row.createCell(1).setCellValue(applications.getText());
+            row.createCell(1).setCellValue(applications.getTitle());
             row.createCell(2).setCellValue(applications.getText());
-            row.createCell(3).setCellValue(applications.getText());
-            row.createCell(4).setCellValue(applications.getText());
-            row.createCell(5).setCellValue(applications.getText());
-            row.createCell(6).setCellValue(applications.getText());
-            row.createCell(7).setCellValue(applications.getText());
-            row.createCell(8).setCellValue(applications.getText());
+            row.createCell(3).setCellValue(applications.getAuthor());
+            row.createCell(4).setCellValue(applications.getYear());
+            row.createCell(5).setCellValue(applications.getName_category());
         }
 
     }
@@ -66,14 +63,11 @@ public class ExcelDocument extends AbstractExcelView {
         //set Excel Header names
         HSSFRow header = excelSheet.createRow(0);
         header.createCell(0).setCellValue("ID");
-        header.createCell(1).setCellValue("ФИО");
-        header.createCell(2).setCellValue("Телефон");
+        header.createCell(1).setCellValue("Наименование");
+        header.createCell(2).setCellValue("Описание");
         //header.getCell(2).setCellStyle(styleHeader);
-        header.createCell(3).setCellValue("Организация");
-        header.createCell(4).setCellValue("Категория");
-        header.createCell(5).setCellValue("Система");
-        header.createCell(6).setCellValue("Текст заявки");
-        header.createCell(7).setCellValue("Дата создания");
-        header.createCell(8).setCellValue("Дата завершения");
+        header.createCell(3).setCellValue("Автор");
+        header.createCell(4).setCellValue("Год выпуска");
+        header.createCell(5).setCellValue("Категория");
     }
 }

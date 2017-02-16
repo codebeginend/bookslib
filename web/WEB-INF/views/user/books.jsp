@@ -33,7 +33,7 @@
                                     <h6>Автор:${app.author}</h6>
                                     <h6>${app.year}</h6>
                                     <p>${app.text}</p>
-                                    <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                                    <p><a href="#" class="btn btn-primary" role="button">Добавить к себе</a></p>
                                 </div>
                             </div>
                         </div>
