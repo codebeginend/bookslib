@@ -2,15 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9eb23c0d-46c5-46a0-aaa6-dcea152efc3d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/views/admin/add.jsp" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/7a91c232-7877-4266-8b57-c98186e25fb2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/7a91c232-7877-4266-8b57-c98186e25fb2/storage.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_4_0_4_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_4_3_5_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_4_3_5_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_1_1_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_1_3_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_annotations_1_2_0_Beta1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_0_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/gupcit/spring/controller/MainController.java" afterPath="$PROJECT_DIR$/src/main/java/ru/gupcit/spring/controller/MainController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bookslib.iml" afterPath="$PROJECT_DIR$/bookslib.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/gupcit/spring/dao/BooksDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ru/gupcit/spring/dao/BooksDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/gupcit/spring/dao/IBooksDao.java" afterPath="$PROJECT_DIR$/src/main/java/ru/gupcit/spring/dao/IBooksDao.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/gupcit/spring/excel/ExcelDocument.java" afterPath="$PROJECT_DIR$/src/main/java/ru/gupcit/spring/excel/ExcelDocument.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/views/admin/books.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/admin/books.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/views/includes/headeradmin.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/includes/headeradmin.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/views/user/books.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/views/user/books.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,6 +42,16 @@
     <option name="SHOW_TABLE_DETAILS" value="true" />
     <option name="SHOW_EMPTY_GROUPS" value="false" />
     <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="gisroute@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
     <PATH>
       <PATH_ELEMENT>
         <option name="myItemId" />
@@ -72,7 +93,130 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="BooksDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/gupcit/spring/dao/BooksDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="433">
+              <caret line="52" column="28" lean-forward="false" selection-start-line="51" selection-start-column="22" selection-end-line="53" selection-end-column="186" />
+              <folding>
+                <marker date="1487354373000" expanded="true" signature="888:1104" ph="SELECT books... " />
+                <marker date="1487354373000" expanded="true" signature="888:1153" ph="SELECT books... book" />
+                <marker date="1487354373000" expanded="true" signature="888:1154" ph="SELECT books... books" />
+                <marker date="1487354373000" expanded="true" signature="888:1272" ph="SELECT scgup... users" />
+                <marker date="1487354373000" expanded="true" signature="2110:2499" ph="SELECT books... books" />
+                <marker date="1487354373000" expanded="true" signature="2110:2531" ph="SELECT books... books" />
+                <marker date="1487354373000" expanded="true" signature="3369:3489" ph="INSERT INTO bookslib.books... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7a91c232-7877-4266-8b57-c98186e25fb2/console.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-30">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="105" column="9" lean-forward="false" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExcelDocument.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/gupcit/spring/excel/ExcelDocument.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="31" column="77" lean-forward="false" selection-start-line="31" selection-start-column="77" selection-end-line="31" selection-end-column="77" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DATABASE/11d65d3e-0131-48ba-9723-4efa2ba5d55a.TABLE:bookslib.books" pinned="false" current-in-tab="false">
+        <entry file="uml://DATABASE/11d65d3e-0131-48ba-9723-4efa2ba5d55a.TABLE:bookslib.books">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>11d65d3e-0131-48ba-9723-4efa2ba5d55a.TABLE:bookslib.books</OriginalElement>
+              <nodes>
+                <node x="327.0" y="231.0">11d65d3e-0131-48ba-9723-4efa2ba5d55a.TABLE:bookslib.books</node>
+                <node x="417.0" y="51.0">11d65d3e-0131-48ba-9723-4efa2ba5d55a.TABLE:bookslib.categories</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="11d65d3e-0131-48ba-9723-4efa2ba5d55a.TABLE:bookslib.books" target="11d65d3e-0131-48ba-9723-4efa2ba5d55a.TABLE:bookslib.categories">
+                  <point x="0.0" y="-92.5" />
+                  <point x="0.0" y="37.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="69.5" y="144.0" />
+              <SelectedNodes>
+                <node>11d65d3e-0131-48ba-9723-4efa2ba5d55a.TABLE:bookslib.books</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Key columns</Category>
+                <Category>Columns</Category>
+              </Categories>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DATABASE/11d65d3e-0131-48ba-9723-4efa2ba5d55a" pinned="false" current-in-tab="false">
+        <entry file="uml://DATABASE/11d65d3e-0131-48ba-9723-4efa2ba5d55a">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>11d65d3e-0131-48ba-9723-4efa2ba5d55a</OriginalElement>
+              <nodes>
+                <node x="273.0" y="125.0">11d65d3e-0131-48ba-9723-4efa2ba5d55a.TABLE:bookslib.books</node>
+                <node x="40.0" y="235.0">11d65d3e-0131-48ba-9723-4efa2ba5d55a.TABLE:bookslib.authorities</node>
+                <node x="323.0" y="0.0">11d65d3e-0131-48ba-9723-4efa2ba5d55a.TABLE:bookslib.categories</node>
+                <node x="0.0" y="0.0">11d65d3e-0131-48ba-9723-4efa2ba5d55a.TABLE:bookslib.users</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="11d65d3e-0131-48ba-9723-4efa2ba5d55a.TABLE:bookslib.books" target="11d65d3e-0131-48ba-9723-4efa2ba5d55a.TABLE:bookslib.categories">
+                  <point x="0.0" y="-92.5" />
+                  <point x="0.0" y="37.5" />
+                </edge>
+                <edge source="11d65d3e-0131-48ba-9723-4efa2ba5d55a.TABLE:bookslib.authorities" target="11d65d3e-0131-48ba-9723-4efa2ba5d55a.TABLE:bookslib.users">
+                  <point x="0.0" y="-48.5" />
+                  <point x="0.0" y="92.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="43.5" y="18.5" />
+              <SelectedNodes>
+                <node>11d65d3e-0131-48ba-9723-4efa2ba5d55a.TABLE:bookslib.categories</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Key columns</Category>
+                <Category>Columns</Category>
+              </Categories>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bookslib.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/resources/sql/bookslib.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1150">
+              <caret line="125" column="2" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="125" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -90,7 +234,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/WEB-INF/glassfish-web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/spring/excel/PDFDocument.java" />
         <option value="$PROJECT_DIR$/WEB-INF/views/user/application.jsp" />
@@ -109,12 +252,13 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/views/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/ru/gupcit/spring/dao/UsersDaoImpl.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/user/books.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/gupcit/spring/excel/ExcelDocument.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/includes/headeradmin.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/ru/gupcit/spring/dao/IBooksDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/gupcit/spring/dao/BooksDaoImpl.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/views/admin/books.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/ru/gupcit/spring/controller/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/gupcit/spring/dao/BooksDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/gupcit/spring/excel/ExcelDocument.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -171,9 +315,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -222,106 +366,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookslib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookslib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookslib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookslib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="includes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookslib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookslib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookslib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookslib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -337,80 +381,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sql" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookslib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookslib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookslib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookslib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookslib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bookslib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="logo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -511,10 +481,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="excel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -620,8 +586,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="FullScreen" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL?" />
+    <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -1127,7 +1093,11 @@
       <workItem from="1487143635802" duration="3483000" />
       <workItem from="1487153180794" duration="358000" />
       <workItem from="1487195603185" duration="18000" />
-      <workItem from="1487266630526" duration="8331000" />
+      <workItem from="1487266630526" duration="8418000" />
+      <workItem from="1487343115015" duration="496000" />
+      <workItem from="1487662366572" duration="237000" />
+      <workItem from="1487662627361" duration="33000" />
+      <workItem from="1487674577569" duration="3465000" />
     </task>
     <task id="LOCAL-00001" summary="Завершил вывод всех книг">
       <created>1487144772648</created>
@@ -1143,11 +1113,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487145363815</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Добавил возможность фильтра по категорий и добавления книг">
+      <created>1487280096015</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1487280096015</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31476000" />
+    <option name="totallyTimeSpent" value="35794000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1161,22 +1138,22 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22103004" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24892704" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48569384" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1198,7 +1175,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Завершил вывод всех книг" />
     <MESSAGE value="Добавил последнюю обновленную бд" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил последнюю обновленную бд" />
+    <MESSAGE value="Добавил возможность фильтра по категорий и добавления книг" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил возможность фильтра по категорий и добавления книг" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1209,10 +1187,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/spring/dao/IUsersDao.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/spring/dao/SystemsDaoImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/spring/service/ApplicationsService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/spring/dao/UsersDaoImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/spring/excel/PDFDocument.java" />
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/dispatcher-context.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1418,28 +1392,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/resources/sql/bookslib.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="26" column="12" lean-forward="false" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="43" lean-forward="false" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/gupcit/spring/excel/ExcelDocument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="45" column="39" lean-forward="false" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1474,14 +1431,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/admin/add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/admin/add.jsp" />
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/includes/header.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
@@ -1503,7 +1453,7 @@
         <state relative-caret-position="600">
           <caret line="60" column="31" lean-forward="false" selection-start-line="60" selection-start-column="31" selection-end-line="60" selection-end-column="31" />
           <folding>
-            <element signature="e#1072#1073#0" expanded="true" />
+            <element signature="e#1072#1073#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1513,9 +1463,7 @@
         <state relative-caret-position="330">
           <caret line="107" column="43" lean-forward="false" selection-start-line="107" selection-start-column="43" selection-end-line="107" selection-end-column="43" />
           <folding>
-            <element signature="n#style#0;n#li#0;n#ul#0;n#td#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#3724#3731#0#HTML" expanded="true" />
+            <element signature="e#3724#3731#0#HTML" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1529,7 +1477,6 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1559,22 +1506,111 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/7a91c232-7877-4266-8b57-c98186e25fb2/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/gupcit/spring/excel/ExcelDocument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="31" column="77" lean-forward="false" selection-start-line="31" selection-start-column="77" selection-end-line="31" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/11d65d3e-0131-48ba-9723-4efa2ba5d55a.TABLE:bookslib.books">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>11d65d3e-0131-48ba-9723-4efa2ba5d55a.TABLE:bookslib.books</OriginalElement>
+          <nodes>
+            <node x="327.0" y="231.0">11d65d3e-0131-48ba-9723-4efa2ba5d55a.TABLE:bookslib.books</node>
+            <node x="417.0" y="51.0">11d65d3e-0131-48ba-9723-4efa2ba5d55a.TABLE:bookslib.categories</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="11d65d3e-0131-48ba-9723-4efa2ba5d55a.TABLE:bookslib.books" target="11d65d3e-0131-48ba-9723-4efa2ba5d55a.TABLE:bookslib.categories">
+              <point x="0.0" y="-92.5" />
+              <point x="0.0" y="37.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="69.5" y="144.0" />
+          <SelectedNodes>
+            <node>11d65d3e-0131-48ba-9723-4efa2ba5d55a.TABLE:bookslib.books</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/11d65d3e-0131-48ba-9723-4efa2ba5d55a">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>11d65d3e-0131-48ba-9723-4efa2ba5d55a</OriginalElement>
+          <nodes>
+            <node x="273.0" y="125.0">11d65d3e-0131-48ba-9723-4efa2ba5d55a.TABLE:bookslib.books</node>
+            <node x="40.0" y="235.0">11d65d3e-0131-48ba-9723-4efa2ba5d55a.TABLE:bookslib.authorities</node>
+            <node x="323.0" y="0.0">11d65d3e-0131-48ba-9723-4efa2ba5d55a.TABLE:bookslib.categories</node>
+            <node x="0.0" y="0.0">11d65d3e-0131-48ba-9723-4efa2ba5d55a.TABLE:bookslib.users</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="11d65d3e-0131-48ba-9723-4efa2ba5d55a.TABLE:bookslib.books" target="11d65d3e-0131-48ba-9723-4efa2ba5d55a.TABLE:bookslib.categories">
+              <point x="0.0" y="-92.5" />
+              <point x="0.0" y="37.5" />
+            </edge>
+            <edge source="11d65d3e-0131-48ba-9723-4efa2ba5d55a.TABLE:bookslib.authorities" target="11d65d3e-0131-48ba-9723-4efa2ba5d55a.TABLE:bookslib.users">
+              <point x="0.0" y="-48.5" />
+              <point x="0.0" y="92.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="43.5" y="18.5" />
+          <SelectedNodes>
+            <node>11d65d3e-0131-48ba-9723-4efa2ba5d55a.TABLE:bookslib.categories</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/resources/sql/bookslib.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="125" column="2" lean-forward="false" selection-start-line="123" selection-start-column="0" selection-end-line="125" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/gupcit/spring/dao/BooksDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="66" column="21" lean-forward="true" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
+        <state relative-caret-position="433">
+          <caret line="52" column="28" lean-forward="false" selection-start-line="51" selection-start-column="22" selection-end-line="53" selection-end-column="186" />
           <folding>
-            <element signature="e#1331#2018#0" expanded="true" />
-            <element signature="e#2017#2018#0" expanded="true" />
-            <element signature="e#2616#3298#0" expanded="true" />
-            <marker date="1487278020000" expanded="true" signature="888:1104" ph="SELECT books... " />
-            <marker date="1487278020000" expanded="true" signature="888:1153" ph="SELECT books... book" />
-            <marker date="1487278020000" expanded="true" signature="888:1154" ph="SELECT books... books" />
-            <marker date="1487278020000" expanded="true" signature="888:1272" ph="SELECT scgup... users" />
-            <marker date="1487278020000" expanded="true" signature="2110:2499" ph="SELECT books... books" />
-            <marker date="1487278020000" expanded="true" signature="2110:2531" ph="SELECT books... books" />
-            <marker date="1487278020000" expanded="true" signature="3369:3489" ph="INSERT INTO bookslib.books... " />
+            <marker date="1487354373000" expanded="true" signature="888:1104" ph="SELECT books... " />
+            <marker date="1487354373000" expanded="true" signature="888:1153" ph="SELECT books... book" />
+            <marker date="1487354373000" expanded="true" signature="888:1154" ph="SELECT books... books" />
+            <marker date="1487354373000" expanded="true" signature="888:1272" ph="SELECT scgup... users" />
+            <marker date="1487354373000" expanded="true" signature="2110:2499" ph="SELECT books... books" />
+            <marker date="1487354373000" expanded="true" signature="2110:2531" ph="SELECT books... books" />
+            <marker date="1487354373000" expanded="true" signature="3369:3489" ph="INSERT INTO bookslib.books... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="105" column="9" lean-forward="false" selection-start-line="105" selection-start-column="9" selection-end-line="105" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>

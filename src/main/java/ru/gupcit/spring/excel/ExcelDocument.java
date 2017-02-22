@@ -29,7 +29,7 @@ public class ExcelDocument extends AbstractExcelView {
         //New Excel sheet
         HSSFSheet excelSheet = workbook.createSheet("Simple excel example");
         //Excel file name change
-        response.setHeader("Content-Disposition", "attachment; filename=Zayavky.xls");
+        response.setHeader("Content-Disposition", "attachment; filename=books.xls");
 
         Font font = workbook.createFont();
         font.setFontName("Arial");

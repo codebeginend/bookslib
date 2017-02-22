@@ -73,4 +73,6 @@ public class BooksDaoImpl implements IBooksDao {
                 "(title, text, author, year, id_category, image) VALUES (?, ?, ?, ?, ?, ?)";
         jdbcTemplate.update(sql, new Object[]{books.getTitle(), books.getText(), books.getAuthor(),books.getYear(), books.getId_category(), books.getImages()});
     }
+
+
 }
